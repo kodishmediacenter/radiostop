@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.radiostops" name="Radios Top" version="1.0" provider-name="Kodish MC">
+<addon id="plugin.video.radiostops" name="Radios Top" version="2.0" provider-name="Kodish MC">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
     </requires>
@@ -8,9 +8,9 @@
     </extension>
 	
 	<extension point="xbmc.addon.repository" name="Repositorio TWTutoriais">
-		<info compressed="false">https://raw.githubusercontent.com/BUILDTONYWARLLEY/REPOTWTUTORIAIS/master/addons.xml</info>
-		<checksum>https://raw.githubusercontent.com/BUILDTONYWARLLEY/REPOTWTUTORIAIS/master/addons.xml.md5</checksum>
-		<datadir zip="true">https://raw.githubusercontent.com/BUILDTONYWARLLEY/REPOTWTUTORIAIS/master/Plugins/</datadir>
+		<info compressed="false">https://raw.githubusercontent.com/kodishmediacenter/radiostop/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/kodishmediacenter/radiostop/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/kodishmediacenter/radiostop/master/Plugins/</datadir>
 	</extension>
 	
     <extension point="xbmc.addon.metadata">
