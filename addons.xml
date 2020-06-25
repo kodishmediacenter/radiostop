@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.radiostops" name="Radios Top" version="2.0" provider-name="Kodish MC">
+<addon id="plugin.video.radiostops" name="Radios Top" version="2.1" provider-name="Kodish MC">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
     </requires>
@@ -25,6 +25,4 @@
     </extension>
 	
 </addon>
-
-
 </addons>

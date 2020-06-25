@@ -143,7 +143,7 @@ if ret2 == 20:
 
 if ret2 == 22:
     dialog = xbmcgui.Dialog()
-    link5 = dialog.select('[COLOR yellow][B]Melhores Radios Top Pagina 2[/B][/COLOR]', ['Radio Brega','Radio Relax','Rádio Anos 80s','Dance Music Anos 2000','Radio as Velhinhas','Flash Disco Dance','Flash Disco Dance Anos 80','Radio Corigao','Radio Rock On','Classic Metal Radio','Power K-pop','Villa Mix','Radio Contact 102.2 FM','Webradio Webnovelas','','','','','','','Pagina 3'])
+    link5 = dialog.select('[COLOR yellow][B]Melhores Radios Top Pagina 2[/B][/COLOR]', ['Radio Brega','Radio Relax','Rádio Anos 80s','Dance Music Anos 2000','Radio as Velhinhas','Flash Disco Dance','Flash Disco Dance Anos 80','Radio Corigao','Radio Rock On','Classic Metal Radio','Power K-pop','Villa Mix','Radio Contact 102.2 FM','Webradio Webnovelas','Jovem Pan SP','Alvorada FM (Belo Horizonte)','Spaco FM (Farropilha)','','','','Pagina 3'])
 
     if link5 == 0:
         linku3 = "http://azura.sk7.org:8090/radio.mp3"
@@ -201,7 +201,17 @@ if ret2 == 22:
         linku3 = "http://91.121.155.140:18762/;"
         xbmc.Player().play(""+linku3+"")
         
-        
-        
+    if link5 == 14:
+        linku3 = "https://19293.live.streamtheworld.com/JP_SP_FM_SC"
+        xbmc.Player().play(""+linku3+"")   
 
+    if link5 == 15:
+        linku3 = "https://20283.live.streamtheworld.com/RADIO_ALVORADAAAC.aac?dist=triton-widget&tdsdk=js-2.9&pname=tdwidgets&pversion=2.9&banners=none&sbmid=019bd986-bfa2-45e2-91c3-899423afeced"
+        xbmc.Player().play(""+linku3+"")   
+
+    if link5 == 16:
+        linku3 = "https://stream.spacofm.com.br:8787/spacofm"
+        xbmc.Player().play(""+linku3+"")          
+        
+   
     
