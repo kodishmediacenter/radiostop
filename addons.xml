@@ -1,14 +1,30 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.video.radiostops" name="Radios Top" version="2.1" provider-name="Kodish MC">
+<addon id="xbmc.python2" version="3.0.0" provider-name="Team Kodi">
+  <backwards-compatibility abi="2.1.0"/>
+  <requires>
+    <import addon="xbmc.core" version="0.1.0"/>
+  </requires>
+  <extension-point id="script" schema="script.xsd"/>
+  <extension-point id="subtitles" schema="script.xsd"/>
+  <extension-point id="lyrics" schema="script.xsd"/>
+  <extension-point id="weather" schema="script.xsd"/>
+  <extension-point id="library" schema="script.xsd"/>
+  <extension-point id="screensaver" schema="script.xsd"/>
+  <extension-point id="plugin" schema="pluginsource.xsd"/>
+  <extension-point id="context.item" schema="contextitem.xsd"/>
+</addon>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.radiostops" name="Radios Top" version="3.0" provider-name="Kodish MC">
     <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="xbmc.python2" version="3.0.0"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
     </extension>
 	
-	<extension point="xbmc.addon.repository" name="Repositorio TWTutoriais">
+	<extension point="xbmc.addon.repository" name="Repositorio Radios Top">
 		<info compressed="false">https://raw.githubusercontent.com/kodishmediacenter/radiostop/master/addons.xml</info>
 		<checksum>https://raw.githubusercontent.com/kodishmediacenter/radiostop/master/addons.xml.md5</checksum>
 		<datadir zip="true">https://raw.githubusercontent.com/kodishmediacenter/radiostop/master/Plugins</datadir>
@@ -25,4 +41,5 @@
     </extension>
 	
 </addon>
+
 </addons>

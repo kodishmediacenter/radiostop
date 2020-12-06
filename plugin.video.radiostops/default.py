@@ -6,7 +6,7 @@ import webbrowser
 
     
 dialog = xbmcgui.Dialog()
-ret2 = dialog.select('[COLOR yellow][B]Melhores Radios Top[/B][/COLOR]', ['89 FM Radio Rock','97 Rock Web Rádio','Difusora FM Riberao Preto','Alfa FM','Band Vale','Nova Brasil FM','Antena 1','Rádio 91 Rock','Dumont FM','Radio Farropilha','New Life','Zebu FM','80 FM','Billboard Radio','Back to the 80s','Jazz Groove','Radio Sertaneja Raiz','Mix FM','Kiss FM','Radio FG','Radio Coca-Cola','','Pagina 2'])
+ret2 = dialog.select('[COLOR yellow][B]Melhores Radios Top[/B][/COLOR]', ['89 FM Radio Rock','97 Rock Web Rádio','Difusora FM Riberao Preto','Alfa FM','Band Vale','Nova Brasil FM','Antena 1','Rádio 91 Rock','Dumont FM','Radio Farropilha','New Life','Zebu FM','80 FM','Billboard Radio','Radio Autobahn - Anos 80','Jazz Groove','Radio Sertaneja Raiz','Mix FM','Kiss FM','Radio FG','Radio Coca-Cola','','Pagina 2'])
 
 if ret2 == 0:
     link = "https://ice.fabricahost.com.br/89aradiorocksp"
@@ -45,7 +45,7 @@ if ret2 == 6:
         xbmc.Player().play(""+linku+"")
 
 if ret2 == 7:
-    link = "https://servidor40.brlogic.com:8044/live"
+    link = "http://servidor40.brlogic.com:8044/live"
     xbmc.Player().play(""+link+"")
 
 if ret2 == 8:
@@ -73,7 +73,7 @@ if ret2 == 13:
     xbmc.Player().play(""+link+"")
 
 if ret2 == 14:
-    link = "http://s1.nexuscast.com:8135/;"
+    link = "http://streaming19.hstbr.net:8024/live?1607267105486"
     xbmc.Player().play(""+link+"")
 
 if ret2 == 15:
@@ -143,7 +143,7 @@ if ret2 == 20:
 
 if ret2 == 22:
     dialog = xbmcgui.Dialog()
-    link5 = dialog.select('[COLOR yellow][B]Melhores Radios Top Pagina 2[/B][/COLOR]', ['Radio Brega','Radio Relax','Rádio Anos 80s','Dance Music Anos 2000','Radio as Velhinhas','Flash Disco Dance','Flash Disco Dance Anos 80','Radio Corigao','Radio Rock On','Classic Metal Radio','Power K-pop','Villa Mix','Radio Contact 102.2 FM','Webradio Webnovelas','Jovem Pan SP','Alvorada FM (Belo Horizonte)','Spaco FM (Farropilha)','','','','Pagina 3'])
+    link5 = dialog.select('[COLOR yellow][B]Melhores Radios Top Pagina 2[/B][/COLOR]', ['Radio Brega','Radio Relax','Rádio Anos 80s','Dance Music Anos 2000','Radio as Velhinhas','Flash Disco Dance','Flash Disco Dance Anos 80','Radio Corigao','Radio Rock On','Classic Metal Radio','Power K-pop','Villa Mix','Radio Contact 102.2 FM','Webradio Webnovelas','Jovem Pan SP','Alvorada FM (Belo Horizonte)','Spaco FM (Farropilha)','Tectoy ON','Radio USP FM','Trasamerica','Historia Infantil','','Pagina 3'])
 
     if link5 == 0:
         linku3 = "http://azura.sk7.org:8090/radio.mp3"
@@ -211,7 +211,69 @@ if ret2 == 22:
 
     if link5 == 16:
         linku3 = "https://stream.spacofm.com.br:8787/spacofm"
-        xbmc.Player().play(""+linku3+"")          
+        xbmc.Player().play(""+linku3+"")
         
-   
+    if link5 == 17:
+        linku3 = "https://8874.brasilstream.com.br/stream"
+        xbmc.Player().play(""+linku3+"")
+
+    if link5 == 18:
+        dialog = xbmcgui.Dialog()
+        link21 = dialog.select('Radio USP', ['Sao Paulo','Riberao Preto'])
+
+        if link21 == 0:
+            linku = "http://200.144.185.21:8007/radiousp-128.mp3"
+            xbmc.Player().play(""+linku+"")
+
+        if link21 == 1:
+            linku = "http://200.144.185.21:8007/radiousp-rp-128.mp3"
+            xbmc.Player().play(""+linku+"")
     
+        
+    if link5 == 19:
+        linku3 = "https://shout25.crossradio.com.br:19100/stream"
+        xbmc.Player().play(""+linku3+"")
+
+    if link5 == 20:
+        linku3 = "https://centova4.transmissaodigital.com:20107"
+        xbmc.Player().play(""+linku3+"")
+        
+    if link5 == 22:
+        dialog = xbmcgui.Dialog()
+        link6 = dialog.select('[COLOR yellow][B]Melhores Radios Top Pagina 3[/B][/COLOR]', ['JB FM (RJ)','Radio Cidade Rock','Radio Classic Rock','Radio Stereo Zero','Drop 80','105 FM (SP)','Tempo FM 103.9 Fortaleza','Radio Jamaica Brasileira','','',''])
+
+        if link6 == 0:
+            linku32 = "https://21933.live.streamtheworld.com/JBFM_SC"
+            xbmc.Player().play(""+linku32+"")
+
+        if link6 == 1:
+            linku32 = "https://16883.live.streamtheworld.com/RADIOCIDADEAAC.aac"
+            xbmc.Player().play(""+linku32+"")
+
+        if link6 == 2:
+            linku32 = "https://15373.live.streamtheworld.com/CIDADECLASSICROCKAAC.aac"
+            xbmc.Player().play(""+linku32+"")
+
+        if link6 == 3:
+            linku32 = "https://17963.live.streamtheworld.com/CIDADEDROPROCKAAC.aac"
+            xbmc.Player().play(""+linku32+"")
+            
+        if link6 == 4:
+            linku32 = "https://17793.live.streamtheworld.com/OITENTONAAAC.aac"
+            xbmc.Player().play(""+linku32+"")
+
+        if link6 == 5:
+            linku32 = "https://virtues.app:9010/live?1607279442092"
+            xbmc.Player().play(""+linku32+"")        
+   
+        if link6 == 6:
+            linku32 = "http://r13.ciclano.io:8609/stream"
+            xbmc.Player().play(""+linku32+"")  
+
+        if link6 == 7:
+            linku32 = "http://s03.transmissaodigital.com:6772"
+            xbmc.Player().play(""+linku32+"")        
+   
+        if link6 == 0:
+            linku32 = ""
+            xbmc.Player().play(""+linku32+"") 
